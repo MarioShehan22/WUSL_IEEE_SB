@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IEEEXtreme 18.0 - IEEE Computer Society WUSL</title>
+    <link rel="icon" type="image/png" href="Assets/WUSL_SB_Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/eventDetailStyle.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="Index.html">
+            <img src="Assets/WUSL_SB_Logo.png" alt="IEEE Logo" class="ieee-main-logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="teampagenew.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="EventPage.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main class="event-detail-main">
+    <!-- Event Hero Section -->
+    <section class="event-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="event-hero-content">
+                        <div class="event-meta-badges mb-3">
+                            <span class="badge event-status completed">Past Event</span>
+                            <span class="badge event-category">Programming Competition</span>
+                        </div>
+                        <h1 class="event-hero-title">IEEEXtreme 18.0 Coding Competition</h1>
+                        <p class="event-hero-subtitle">Code. Create. Conquer. The ultimate coding battleground awaits!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Content Section -->
+    <section class="event-content-section">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <!-- Event Gallery -->
+                    <div class="event-gallery-section mb-5">
+                        <h3 class="section-title">Event Gallery</h3>
+                        <div class="event-gallery">
+                            <div class="gallery-main">
+                                <img src="Assets/Events/ieeextreme1.jpg"
+                                     alt="IEEEXtreme 18.0 Main Image"
+                                     class="main-gallery-image"
+                                     id="mainGalleryImage">
+                            </div>
+                            <div class="gallery-thumbnails">
+                                <img src="Assets/Events/ieeextreme.jpg"
+                                     alt="Competition Setup"
+                                     class="thumbnail-image active"
+                                     onclick="changeMainImage(this.src)">
+                                <img src="assets/event_Images/img2.png"
+                                     alt="Participants Coding"
+                                     class="thumbnail-image"
+                                     onclick="changeMainImage(this.src)">
+                                <img src="assets/event_Images/img3.png"
+                                     alt="Team Discussion"
+                                     class="thumbnail-image"
+                                     onclick="changeMainImage(this.src)">
+                                <img src="assets/event_Images/img4.png"
+                                     alt="Problem Solving"
+                                     class="thumbnail-image"
+                                     onclick="changeMainImage(this.src)">
+                                <img src="assets/event_Images/img5.png"
+                                     alt="Competition Environment"
+                                     class="thumbnail-image"
+                                     onclick="changeMainImage(this.src)">
+                                <img src="assets/event_Images/img6.png"
+                                     alt="Final Moments"
+                                     class="thumbnail-image"
+                                     onclick="changeMainImage(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event Description -->
+                    <div class="event-description-section mb-5">
+                        <h3 class="section-title">About This Competition</h3>
+                        <div class="event-description">
+                            <div class="highlight-box mb-4">
+                                <i class="fas fa-code"></i>
+                                <h4>The Ultimate Coding Battleground</h4>
+                            </div>
+
+                            <p>Where brilliant minds collide, innovative solutions emerge, and tomorrow's tech leaders are born. IEEEXtreme 18.0 brought together programmers from around the world for an intense 24-hour coding marathon that pushed the boundaries of algorithmic thinking and problem-solving skills.</p>
+
+                            <p>This global programming competition featured:</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle"></i>24-hour non-stop coding challenge</li>
+                                <li><i class="fas fa-check-circle"></i>Multiple algorithmic problem categories</li>
+                                <li><i class="fas fa-check-circle"></i>Real-time global leaderboard</li>
+                                <li><i class="fas fa-check-circle"></i>Team collaboration and strategy</li>
+                                <li><i class="fas fa-check-circle"></i>Networking with global participants</li>
+                                <li><i class="fas fa-check-circle"></i>Recognition and certificates</li>
+                            </ul>
+
+                            <p>Join the revolution that's putting our university on the global digital frontier. IEEEXtreme is more than just a competition – it's a celebration of computational thinking, algorithmic excellence, and the spirit of innovation that drives the tech industry forward. 🚀💻</p>
+                        </div>
+                    </div>
+
+                    <!-- Competition Details -->
+                    <div class="competition-details-section mb-5">
+                        <h3 class="section-title">Competition Highlights</h3>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="detail-card">
+                                    <div class="detail-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <h5>Global Reach</h5>
+                                    <p>Participants from over 80 countries competed simultaneously in this worldwide event.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="detail-card">
+                                    <div class="detail-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <h5>Algorithmic Challenges</h5>
+                                    <p>Complex problems testing data structures, algorithms, and computational thinking.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="detail-card">
+                                    <div class="detail-icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <h5>Team Spirit</h5>
+                                    <p>Teams of up to 3 members collaborated to solve challenging programming problems.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="detail-card">
+                                    <div class="detail-icon">
+                                        <i class="fas fa-award"></i>
+                                    </div>
+                                    <h5>Recognition</h5>
+                                    <p>Top performers received certificates and recognition from IEEE globally.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results Section -->
+                    <div class="results-section mb-5">
+                        <h3 class="section-title">Our Achievements</h3>
+                        <div class="results-card">
+                            <div class="results-header">
+                                <i class="fas fa-trophy"></i>
+                                <h4>WUSL Performance</h4>
+                            </div>
+                            <div class="results-content">
+                                <div class="achievement-item">
+                                    <strong>Participation:</strong>
+                                    <span>Multiple teams from Wayamba University</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <strong>Experience Gained:</strong>
+                                    <span>24 hours of intensive programming practice</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <strong>Skills Developed:</strong>
+                                    <span>Advanced problem-solving and teamwork</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <strong>Network Built:</strong>
+                                    <span>Connections with global programming community</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <div class="event-sidebar">
+                        <!-- Event Details Card -->
+                        <div class="sidebar-card">
+                            <h4 class="card-title">Competition Details</h4>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <div>
+                                    <strong>Date</strong>
+                                    <span>October 26, 2024</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <strong>Duration</strong>
+                                    <span>24 Hours Non-stop</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <strong>Team Size</strong>
+                                    <span>Up to 3 Members</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-code"></i>
+                                <div>
+                                    <strong>Languages</strong>
+                                    <span>Multiple Programming Languages</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-trophy"></i>
+                                <div>
+                                    <strong>Type</strong>
+                                    <span>IEEE Global Competition</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Organizers Card -->
+                        <div class="sidebar-card">
+                            <h4 class="card-title">Organizers</h4>
+                            <div class="organizer-item">
+                                <div class="organizer-logo">
+                                    <img src="Assets/WUSL_SB_Logo.png" alt="IEEE WUSL Logo">
+                                </div>
+                                <div>
+                                    <strong>IEEE Student Branch – WUSL</strong>
+                                    <span>Local Coordinator</span>
+                                </div>
+                            </div>
+                            <div class="collaborator-list">
+                                <h5>In Partnership With:</h5>
+                                <ul>
+                                    <li>IEEE Global Organization</li>
+                                    <li>IEEE Computer Society</li>
+                                    <li>IEEE Student Activities</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Skills Developed -->
+                        <div class="sidebar-card">
+                            <h4 class="card-title">Skills Developed</h4>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>Algorithm Design</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-database"></i>
+                                    <span>Data Structures</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-brain"></i>
+                                    <span>Problem Solving</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Team Collaboration</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Time Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-brand">
+                    <img src="Assets/WUSL_SB_Logo.png" alt="IEEE Logo" class="img-fluid ieee-main-logo">
+                </div>
+                <p class="mt-3">Advancing Technology for Humanity</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div class="social-icons mb-3">
+                    <a href="https://www.facebook.com/share/15LVNYcyLS/" target="_blank" class="me-3">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ieeecswusl/" target="_blank" class="me-3">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/ieee-student-branch-wusl/" target="_blank" class="me-3">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:ieeestudentbranch@wusl.ac.lk" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">&copy; 2025 IEEE Student Branch - Wayamba University of Sri Lanka. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/eventDetailJs.js"></script>
+</body>
+</html>
